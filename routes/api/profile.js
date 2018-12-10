@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-// @routes  GET api/users/test
-// @desc    Tests users routes 
+// @routes  GET api/profile/test
+// @desc    Tests profile routes 
 // @access  Public
 router.get('/test', (req, res) => {
     res.json({
-        msg: "Users works"
+        msg: "Profile works"
     });
 })
 
